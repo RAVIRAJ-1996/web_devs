@@ -1,0 +1,128 @@
+h1 {
+    font-size: 5rem;
+}
+p {
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+.image00 {
+    display: flex;
+    justify-content: center;
+}
+.image00 img {
+    width: 100vh;
+    height: 50vh ;
+    align-items: center;
+    text-align: center;
+}
+.home * {
+    z-index: 1;
+}
+.home
+{
+    background-image: url("img4.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    /* width: 100vw; */
+    color: floralwhite;
+}
+.navbar-inner {
+    background-color:transparent;
+}
+.title{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ul li{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+}
+ul{
+    background-color: rgb(117, 150, 194);
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li a{
+    
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(10, 10, 1);
+    padding: 10px 30px;
+    transition: 0.6s ease;
+    border-radius:50px;
+}
+
+ul li a:hover{
+    background-color: rgb(60, 101, 190);
+    color: black;
+    text-decoration: none;
+    
+}
+
+ul li.active a{
+    background-color: rgb(60, 101, 190);
+    color: black;
+
+}
+
+.home{
+    margin-bottom: 20px;
+}
+.about{ 
+    margin-top: 5rem ;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    width: 100%;
+    padding: 250px 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.about p{
+    font-size: 1.5rem;
+
+}
+.plan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    padding-top: 100px;
+}
+.Institutional{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 207, 207);
+    padding: 100px 100px;
+    height: 100vh;
+}
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    padding-top: 100px;
+
+}
